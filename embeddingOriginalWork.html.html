@@ -1,0 +1,16 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CbH7n9-Gd1Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67221.07399494438!2d-122.37346552267583!3d47.62534028599567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0cf1e7c8bac3078!2sApple+University+Village!5e0!3m2!1sen!2sus!4v1522617555320" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://open.spotify.com/embed/track/7BKLCZ1jbUBVqRi2FVlTVw" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+Try it Yourself »
+
